@@ -15,9 +15,10 @@ const Index = () => {
         <div className="absolute -z-10 top-1/4 -left-10 w-32 h-32 rounded-full bg-cyan-500/5 animate-float" style={{ animationDelay: "4s" }}></div>
         
         <div className="glass rounded-3xl p-8 sm:p-10 shadow-xl backdrop-blur-xl relative overflow-hidden animate-fade-in">
-          {/* Subtle decorative element */}
+          {/* Subtle decorative elements */}
           <div className="absolute -right-16 -top-16 w-32 h-32 bg-blue-500/10 rounded-full blur-xl animate-pulse-soft" />
           <div className="absolute -left-20 -bottom-20 w-40 h-40 bg-cyan-500/5 rounded-full blur-xl animate-pulse-soft" style={{ animationDelay: "1.5s" }} />
+          <div className="absolute top-1/2 right-0 w-full h-32 shimmer opacity-20" />
           
           <div className="relative z-10 space-y-6">
             <div className="space-y-2 text-center">
