@@ -51,21 +51,21 @@ export default function PasswordStrengthIndicator({
     <div className="space-y-1">
       <div className="flex h-1 w-full space-x-1">
         <div
-          className={`h-full w-1/3 rounded-full transition-all duration-300 ${
+          className={`h-full w-1/3 rounded-full transition-all duration-500 ${
             strength !== "empty"
               ? "bg-red-500"
               : "bg-muted"
           }`}
         />
         <div
-          className={`h-full w-1/3 rounded-full transition-all duration-300 ${
+          className={`h-full w-1/3 rounded-full transition-all duration-500 ${
             strength === "medium" || strength === "strong"
               ? "bg-yellow-500"
               : "bg-muted"
           }`}
         />
         <div
-          className={`h-full w-1/3 rounded-full transition-all duration-300 ${
+          className={`h-full w-1/3 rounded-full transition-all duration-500 ${
             strength === "strong" ? "bg-green-500" : "bg-muted"
           }`}
         />

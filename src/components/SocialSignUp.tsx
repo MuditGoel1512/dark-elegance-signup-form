@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 export default function SocialSignUp() {
   return (
     <div className="flex flex-col gap-3 w-full animate-in" style={{ "--index": 3 } as React.CSSProperties}>
-      <div className="relative flex items-center py-2">
+      <div className="relative flex items-center py-4">
         <div className="flex-grow border-t border-muted"></div>
         <span className="flex-shrink mx-3 text-xs text-muted-foreground">OR CONTINUE WITH</span>
         <div className="flex-grow border-t border-muted"></div>
@@ -14,7 +14,7 @@ export default function SocialSignUp() {
       <div className="grid grid-cols-2 gap-3">
         <Button 
           variant="outline" 
-          className="bg-background hover:bg-secondary/80 transition-all duration-300"
+          className="bg-secondary/30 hover:bg-secondary/80 border-white/10 hover:border-blue-500/50 transition-all duration-300"
           onClick={() => {}}
         >
           <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24">
@@ -41,7 +41,7 @@ export default function SocialSignUp() {
         
         <Button 
           variant="outline" 
-          className="bg-background hover:bg-secondary/80 transition-all duration-300"
+          className="bg-secondary/30 hover:bg-secondary/80 border-white/10 hover:border-blue-500/50 transition-all duration-300"
           onClick={() => {}}
         >
           <svg className="w-5 h-5 mr-2" viewBox="0 0 24 24">

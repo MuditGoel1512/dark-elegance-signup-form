@@ -94,6 +94,10 @@ export default {
           "0%": { backgroundPosition: "-200% 0" },
           "100%": { backgroundPosition: "200% 0" },
         },
+        "float": {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-10px)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -102,10 +106,11 @@ export default {
         "fade-out": "fade-out 0.3s ease-out forwards",
         "pulse-soft": "pulse-soft 2s infinite ease-in-out",
         "shimmer": "shimmer 2s infinite linear",
+        "float": "float 6s infinite ease-in-out",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "auth-gradient": "linear-gradient(135deg, rgba(139, 92, 246, 0.15) 0%, rgba(30, 30, 30, 0) 100%)",
+        "auth-gradient": "linear-gradient(135deg, rgba(56, 189, 248, 0.15) 0%, rgba(30, 30, 30, 0) 100%)",
       },
     },
   },
