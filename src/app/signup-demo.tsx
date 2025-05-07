@@ -62,5 +62,5 @@ export function SignUpFormLight() {
   )
 }
 
-// Export both demos
-export { SignUpFormDemo, SignUpFormLight }
+// Removing the duplicate export statement at the end
+// export { SignUpFormDemo, SignUpFormLight } - This line is causing the error
