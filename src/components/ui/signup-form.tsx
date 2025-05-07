@@ -130,7 +130,7 @@ function SocialSignUp() {
 }
 
 // Main SignUpForm Component
-export function SignUpForm() {
+function SignUpForm() {
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -355,3 +355,5 @@ export function SignUpForm() {
     </div>
   )
 }
+
+export { SignUpForm }
